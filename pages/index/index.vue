@@ -4,19 +4,13 @@
 		<view class="text-area">
 			<text class="title" @click="handleClick">{{ counter }}</text>
 		</view>
-
-    <view>
-      <Test :counter="counter" @test-event="handleClick"></Test>
-    </view>
 	</view>
 </template>
 
 <script setup>
   import  { ref } from 'vue'
   import { onShow } from '@dcloudio/uni-app'
-  
-  import Test from '../../components/test.vue'
-  
+
   const counter = ref(0)
   const handleClick = () => {
     counter.value++
