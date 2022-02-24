@@ -7,9 +7,21 @@
       }
     },
     {
+      "path": "pages/component/component",
+      "style": {
+        "navigationBarTitleText": "component-page"
+      }
+    },
+    {
       "path": "pages/list/list",
       "style": {
         "navigationBarTitleText": "list-page"
+      }
+    },
+    {
+      "path": "pages/me/index",
+      "style": {
+        "navigationBarTitleText": "me-page"
       }
     }
   ],
@@ -27,15 +39,19 @@
 		"list": [
       {
 				"pagePath": "pages/index/index",
-				"iconPath": "static/logo.png",
-				"selectedIconPath": "static/logo.png",
 				"text": "首页"
       },
       {
+      	"pagePath": "pages/component/component",
+      	"text": "组件使用"
+      },
+      {
 				"pagePath": "pages/list/list",
-				"iconPath": "static/logo.png",
-				"selectedIconPath": "static/logo.png",
-				"text": "首页"
+				"text": "列表"
+      },
+      {
+				"pagePath": "pages/me/index",
+				"text": "我的"
       }
 		]
 	}
