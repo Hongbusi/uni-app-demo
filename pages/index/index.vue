@@ -2,25 +2,29 @@
 	<view class="content">
 		<image class="logo" src="/static/logo.png"></image>
 		<view class="text-area">
-			<text class="title">{{title}}</text>
+			<text class="title" @click="handleClick">{{ counter }}</text>
 		</view>
+
+    <view>
+      <Test :counter="counter" @test-event="handleClick"></Test>
+    </view>
 	</view>
 </template>
 
-<script>
-	export default {
-		data() {
-			return {
-				title: 'Hello'
-			}
-		},
-		onLoad() {
+<script setup>
+  import  { ref } from 'vue'
+  import { onShow } from '@dcloudio/uni-app'
+  
+  import Test from '../../components/test.vue'
+  
+  const counter = ref(0)
+  const handleClick = () => {
+    counter.value++
+  }
 
-		},
-		methods: {
-
-		}
-	}
+  onShow(() => {
+    console.log('app launch')
+  })
 </script>
 
 <style>

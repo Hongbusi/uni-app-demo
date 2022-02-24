@@ -1,0 +1,1 @@
+<view class="content"><image class="logo" src="/static/logo.png"></image><view class="text-area"><text class="title" bindtap="{{b}}">{{a}}</text></view><view><test wx:if="{{d}}" bind:test-event="{{c}}" u-i="180c0bc4-0" bind:__l="__l" u-p="{{d}}"></test></view></view>

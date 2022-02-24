@@ -1,0 +1,1 @@
+<view> text-component {{a}} <button type="default" bindtap="{{b}}">children btn</button></view>

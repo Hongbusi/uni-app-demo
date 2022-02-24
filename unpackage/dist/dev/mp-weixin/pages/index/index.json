@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "uni-app-demo",
+  "usingComponents": {
+    "test": "../../components/test"
+  }
+}
