@@ -19,6 +19,13 @@
         "navigationBarTitleText": "列表",
         "enablePullDownRefresh": false
       }
+    },
+    {
+      "path": "pages/detail/detail",
+      "style": {
+        "navigationBarTitleText": "详情页",
+        "enablePullDownRefresh": false
+      }
     }
   ],
   "globalStyle": {
