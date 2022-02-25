@@ -4,7 +4,7 @@
 		<view class="content">
 			<view class="title">为什么要选择uni-app？</view>
       <view>uni-app在开发者数量、案例、跨端抹平度、扩展灵活性、性能体验、周边生态、学习成本、开发成本等8大关键指标上拥有更强的优势。</view>
-      <advantage v-for="(item, index) in advantageData" :key="index" v-bind="item" />
+      <advantage v-for="(item, index) in advantageData" :key="index" :title="item.title" :listData="item.listData" />
 		</view>
 	</view>
 </template>
