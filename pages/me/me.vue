@@ -1,6 +1,6 @@
 <template>
 	<view>
-		列表
+		我的
 	</view>
 </template>
 
