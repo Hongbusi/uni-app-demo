@@ -14,9 +14,9 @@
       }
     },
     {
-      "path": "pages/list/list",
+      "path": "pages/form/form",
       "style": {
-        "navigationBarTitleText": "列表",
+        "navigationBarTitleText": "表单",
         "enablePullDownRefresh": false
       }
     },
@@ -45,8 +45,8 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/list/list",
-        "text": "列表"
+        "pagePath": "pages/form/form",
+        "text": "表单"
       },
       {
         "pagePath": "pages/me/me",
